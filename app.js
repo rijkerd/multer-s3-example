@@ -4,7 +4,7 @@ var app = express();
 // Set view engine
 app.engine('hbs', exphbs());
 app.set('view engine', 'hbs');
-require('dotenv').config();
+// require('dotenv').config();
 
 // Require multer for image uploading and multers3 to upload directly to s3
 var multer = require('multer');
